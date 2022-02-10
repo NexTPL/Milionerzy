@@ -3,7 +3,7 @@ import styles from './Container.module.css';
 import Table from '../Table/Table.js';
 import Answer from '../Answer/Answer.js';
 import Question from '../Question/Question.js';
-import Logo from '../Logo.svg';
+import Logo from '.../assets/Logo.svg'; // :)
 
 const Container = () => {
 	return (
