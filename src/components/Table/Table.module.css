@@ -1,0 +1,11 @@
+.Table {
+	border-color: #2731b8;
+	font-size: 0.7rem;
+	color: #ffffff;
+	width: 100%;
+	border-radius: 0.5em;
+	border-style: solid;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

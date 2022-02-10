@@ -1,0 +1,14 @@
+.AnswerContainer {
+	font-size: 1.3rem;
+	color: #ffffff;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	padding: 0.6em;
+	border: #2731b8;
+	border-style: solid;
+	border-radius: 0.5em;
+	width: calc(49% - 2em);
+	height: 1.5em;
+	line-height: 1.5em;
+	overflow: hidden;
+}

@@ -3,7 +3,7 @@ import styles from './Question.module.css';
 const Question = () => {
 	return (
 		<div className={styles.QuestionContainer}>
-			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 		</div>
 	);
 };

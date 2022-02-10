@@ -1,0 +1,40 @@
+.Container {
+	width: 48em;
+	height: 38em;
+	padding: 2em;
+	background-color: #0a0a0a;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	border-radius: 2em;
+	filter: drop-shadow(0 0 0.5rem #0b0b0b);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 2em;
+}
+
+.Player_Container {
+	gap: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 44em;
+}
+
+.Answer_Container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 1em;
+	justify-content: space-between;
+}
+
+.Logo {
+	width: 19em;
+	height: 19em;
+	justify-content: center;
+	display: flex;
+	align-self: center;
+}
