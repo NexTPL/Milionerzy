@@ -15,10 +15,10 @@ const Container = () => {
 				</div>
 				<Question />
 				<div className={styles.Answer_Container}>
-					<Answer id={0} className={styles.Answer} />
-					<Answer id={2} className={styles.Answer} />
-					<Answer id={1} className={styles.Answer} />
-					<Answer id={3} className={styles.Answer} />
+					<Answer id={0} name={'A'} className={styles.Answer} />
+					<Answer id={2} name={'B'} className={styles.Answer} />
+					<Answer id={1} name={'C'} className={styles.Answer} />
+					<Answer id={3} name={'D'} className={styles.Answer} />
 				</div>
 			</div>
 		</div>

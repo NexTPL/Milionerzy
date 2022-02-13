@@ -1,11 +1,9 @@
 import styles from './Question.module.css';
+import { useSelector } from 'react-redux';
 
 const Question = () => {
-	return (
-		<div className={styles.QuestionContainer}>
-			Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-		</div>
-	);
+	const question = useSelector((state) => state.Store.Question.q);
+	return <div className={styles.QuestionContainer}>{question}</div>;
 };
 
 export default Question;

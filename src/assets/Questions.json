@@ -1,0 +1,17 @@
+[
+	{
+		"q": "Jak ma na imie najlepszy pies na świecie?",
+		"c": [1],
+		"a": ["Reksio", "Thor", "Puszek", "Szarik"]
+	},
+	{
+		"q": "Jak ma na imie najlepszy kot na świecie?",
+		"c": [2],
+		"a": ["Tosia", "Bonifacy", "Kitek", "Rudy szczur"]
+	},
+	{
+		"q": "Czy HTML to język programowania?",
+		"c": [0, 1, 2],
+		"a": ["Tak", "Tak", "Tak", "Nie"]
+	}
+]
