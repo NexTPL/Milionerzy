@@ -9,6 +9,7 @@ const Answer = (props) => {
 	const [Selected, changeSelected] = useState(false);
 	const Set = useSelector((state) => state.Store.Set);
 	const Reveal = useSelector((state) => state.Store.Reveal);
+	const Removed = useSelector((state) => state.Store.Removed);
 	const C = useSelector((state) => state.Store.Question.c);
 	const Answer = useSelector((state) => state.Store.Question.a[Set[props.id]]);
 	const Select = useSelector((state) => state.Store.Select);
@@ -37,21 +38,21 @@ const Answer = (props) => {
 		}, 5000);
 	};
 
-	return !Reveal ? (
-		<div
-			className={`${styles.AnswerContainer} ${Selected ? styles.Selected : styles.NotSelected}`}
-			onClick={ClickHandler}
-		>
-			{props.name + '. ' + Answer}
-		</div>
-	) : (
+	return Reveal || Removed.includes(Set[props.id]) ? (
 		<div
 			className={`${styles.AnswerContainer} ${
 				C.includes(Set[props.id]) ? styles.Good : styles.Bad
 			}`}
 			onClick={ClickHandler}
 		>
-			{props.name + '. ' + Answer}
+			{props.name + '. ' + Answer.charAt(0).toUpperCase() + Answer.slice(1)}
+		</div>
+	) : (
+		<div
+			className={`${styles.AnswerContainer} ${Selected ? styles.Selected : styles.NotSelected}`}
+			onClick={ClickHandler}
+		>
+			{props.name + '. ' + Answer.charAt(0).toUpperCase() + Answer.slice(1)}
 		</div>
 	);
 };

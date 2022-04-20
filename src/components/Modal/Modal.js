@@ -1,21 +1,23 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { StoreSliceActions } from '../../store';
 import styles from './Modal.module.css';
+import React, { useState } from 'react';
 import 'animate.css';
 
 const Modal = () => {
 	const Win = useSelector((state) => (state.Store.Score === 12 ? true : false));
+	const [Animation, SetAnimation] = useState(`animate__fadeInDown`);
 	const dispatch = useDispatch();
 	const ClickHandler = () => {
-		dispatch(StoreSliceActions.modal());
-		dispatch(StoreSliceActions.generate());
+		SetAnimation(`animate__fadeOutUp`);
+		setTimeout(() => {
+			dispatch(StoreSliceActions.modal());
+			dispatch(StoreSliceActions.generate());
+		}, 1000);
 	};
 
 	return (
-		<div
-			className={`${styles.ModalBG} animate__animated animate__fadeInDown`}
-			onClick={ClickHandler}
-		>
+		<div className={`${styles.ModalBG} animate__animated ${Animation}`} onClick={ClickHandler}>
 			<div className={styles.Modal}>
 				{Win ? (
 					<div className={styles.TextModal}>

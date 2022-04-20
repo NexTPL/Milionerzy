@@ -28,9 +28,12 @@ const StoreState = {
 		a: ['Tak', 'Tak', 'Tak', 'Tak'],
 	},
 	Set: [0, 1, 2, 3],
+	Removed: [],
 	Reveal: false,
 	Select: false,
 	Modal: false,
+	Mods: false,
+	ModsUsed: [false, false, false], // 50:50, Publiczność, Telefon
 };
 
 const StoreSlice = createSlice({
@@ -39,21 +42,24 @@ const StoreSlice = createSlice({
 	reducers: {
 		check(state, action) {
 			const correct = state.Question.c;
+			if (state.Score === 12) state.Score = 0;
 			if (correct.includes(action.payload)) {
 				state.Score === 11 ? Win.play() : Correct.play();
-				if (state.Score === 11) state.Win = true;
+				if (state.Score === 11) {
+					state.Win = true;
+				}
 				state.Score++;
 			} else {
 				state.Score === 11 ? Lose.play() : Wrong.play();
-				state.Score = 0;
 				state.Win = false;
 			}
 			state.Reveal = true;
 		},
 		generate(state) {
 			state.Reveal = false;
+			state.Removed = [];
 			if (QuestionData.length === 0) {
-				alert('Out of questions');
+				alert('Brak pytań!');
 				return;
 			}
 			if (state.Modal) return;
@@ -95,7 +101,36 @@ const StoreSlice = createSlice({
 			Question.currentTime = 0;
 		},
 		modal(state) {
+			if (state.Modal === true) {
+				state.ModsUsed = [false, false, false];
+				state.Win = false;
+				state.Score = 0;
+			}
 			state.Modal = !state.Modal;
+		},
+		mods(state) {
+			state.Mods = !state.Mods;
+		},
+		mod1(state) {
+			if (state.ModsUsed[0] === true) return;
+			state.ModsUsed[0] = true;
+			let pos = [0, 1, 2, 3];
+			pos = pos.filter((el) => !state.Question.c.includes(el));
+			let toRemove = [];
+			for (let i = 0; i < 2; i++) {
+				const id = Math.floor(Math.random() * pos.length);
+				toRemove.push(pos[id]);
+				pos.splice(id, 1);
+			}
+			state.Removed = toRemove;
+		},
+		mod2(state) {
+			if (state.ModsUsed[1] === true) return;
+			state.ModsUsed[1] = true;
+		},
+		mod3(state) {
+			if (state.ModsUsed[2] === true) return;
+			state.ModsUsed[2] = true;
 		},
 	},
 });

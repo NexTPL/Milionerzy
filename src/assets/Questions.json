@@ -1,17 +1,662 @@
 [
 	{
-		"q": "Jak ma na imie najlepszy pies na świecie?",
+		"q": "Samorzutne mieszanie się cieczy lub gazów na skutek chaotycznego ruchu cząsteczek to:",
 		"c": [1],
-		"a": ["Reksio", "Thor", "Puszek", "Szarik"]
+		"a": ["konwekcja", "dyfuzja", "kontrakcja", "ruchy Browna"]
 	},
 	{
-		"q": "Jak ma na imie najlepszy kot na świecie?",
+		"q": "Który z nizej wymienionych krajów złozył ofertę prezydentury Eisteinowi?",
 		"c": [2],
-		"a": ["Tosia", "Bonifacy", "Kitek", "Rudy szczur"]
+		"a": ["Niemcy", "USA", "Izrael", "Szwajcaria"]
 	},
 	{
-		"q": "Czy HTML to język programowania?",
-		"c": [0, 1, 2],
-		"a": ["Tak", "Tak", "Tak", "Nie"]
+		"q": "Światło białe ulega rozszczepieniu na barwy składowe. W związku z czym mamy do czynienia ze zjawiskiem:",
+		"c": [1],
+		"a": ["rozdzielenia", "dyspersji", "dyfrakcji", "dystrofii"]
+	},
+	{
+		"q": "Okulary krótkowidza w oprawki mają wmontowane:",
+		"c": [1],
+		"a": [
+			"soczewki skupiające światło",
+			"soczewki rozpraszajace światło",
+			"szkła pryzmatyczne",
+			"zwierciadła przezroczyste"
+		]
+	},
+	{
+		"q": "Izaak Newton, autor zasad dynamiki, ze swoimi rodakami witał się mówiąc:",
+		"c": [0],
+		"a": ["Good morning", "Guten Morgen", "Bonjour", "Buon giorno"]
+	},
+	{
+		"q": "1J (dżul) to inaczej:",
+		"c": [0],
+		"a": ["Nm", "VA", "Ns", "Vs"]
+	},
+	{
+		"q": "Jowisz jest największą planetą Układu Słonecznego. Ile księzyców posiada Jowisz?",
+		"c": [1],
+		"a": ["48", "79", "121", "19"]
+	},
+	{
+		"q": "Jednostką podstawową układu jednostek SI nie jest:",
+		"c": [1],
+		"a": ["amper", "niuton", "kelwin", "sekunda"]
+	},
+	{
+		"q": "Słońce świeci dzięki:",
+		"c": [1],
+		"a": [
+			"chemicznej reakcji spalania wodoru",
+			"przemianie termojadrowej wodoru w hel",
+			"rozszczepieniu jąder uranu",
+			"przemianie jądrowej helu w uran"
+		]
+	},
+	{
+		"q": "Jeśli z atomu usuniemy jeden elektron, to powstanie:",
+		"c": [2],
+		"a": [
+			"inny izotop tego samego pierwiastka",
+			"atom innego pierwiastka",
+			"jon",
+			"nie można usunąć elektronu z atomu"
+		]
+	},
+	{
+		"q": "Który ze starożytnych władców zbudował Świątynię Jerozolimską? ",
+		"c": [2],
+		"a": ["Dawid", "Saul", "Salomon", "Jakub"]
+	},
+	{
+		"q": "Kryptonim niemieckiego planu wojny z Polską nosi nazwę?",
+		"c": [1],
+		"a": ["Fall Gelb", "Fall Weiss", "Barbarossa", "Lew Morski"]
+	},
+	{
+		"q": "Papieża Grzegorza VII w Canossie o wybaczenie prosił:",
+		"c": [0],
+		"a": ["cesarz Henryk IV", "cesarz Henryk V", "Król Filip Piękny", "król Jan bez Ziemi"]
+	},
+	{
+		"q": "Która z cywilizacji starożytnych budowała pierwsze zigguraty?",
+		"c": [0],
+		"a": ["sumeryjska", "chińska", "hinduska", "grecka"]
+	},
+	{
+		"q": "Wskaż strony konfliktu w bitwie pod Kłuszynem 1610r.",
+		"c": [2],
+		"a": [
+			"Rzeczpospolita - Szwecja",
+			"Rzeczpospolita - Turcja",
+			"Rzeczpospolita - Rosja",
+			"Rzeczpospolita - Niemcy"
+		]
+	},
+	{
+		"q": "Kto dawniej nosił kontusz?",
+		"c": [3],
+		"a": ["chłop", "mieszczanin", "włościanin", "szlachcic"]
+	},
+	{
+		"q": "Kto był pierwszym królem Polski?",
+		"c": [2],
+		"a": ["Mieszko I", "Mieszko II ", "Bolesław Chrobry", "Bolesław Krzywousty"]
+	},
+	{
+		"q": "Jakie planety sąsiadują z Ziemią?",
+		"c": [1],
+		"a": ["Jowisz i Saturn", "Wenus i Mars", "Wenus i Neptun", "Uran i Merkury"]
+	},
+	{
+		"q": "Który z Avengersów zielenieje ze złości?",
+		"c": [2],
+		"a": ["Nick Fury", "Loki", "Hulk", "Black Widow"]
+	},
+	{
+		"q": "W jaki sposób Adolf hitler doszedł do władzy?",
+		"c": [1],
+		"a": [
+			"pucz monachijskiego w 1923r.",
+			"wygrana NSDAP w wyborach w 1932 r.",
+			"zamach stanu w 1933r.",
+			"wygrana w wyborach w 1928r."
+		]
+	},
+	{
+		"q": "Który system operacyjny jest najstarszy?",
+		"c": [0],
+		"a": ["DOS", "Windows7", "Windows10", "Android"]
+	},
+	{
+		"q": "Kto wystrzelił w kosmos pierwszy samochód?",
+		"c": [2],
+		"a": ["Nikola Tesla", "NASA", "Elon Musk", "Roskosmos"]
+	},
+	{
+		"q": "Literackiego Nobla w 1996 roku przyznano:",
+		"c": [3],
+		"a": [
+			"Czesławowi Miłoszowi",
+			"Oldze Tokarczuk",
+			"Władysławowi Reymontowi",
+			"Wisławie Szymborskiej"
+		]
+	},
+	{
+		"q": "Stoi na stacji lokomotywa to początek wiersza:",
+		"c": [1],
+		"a": ["Jana Brzechwy", "Juliana Tuwima", "Jana Kochanowskiego", "Wisławy Szymborskiej"]
+	},
+	{
+		"q": "Barok w Polsce przypada w całości na wiek:",
+		"c": [1],
+		"a": [":XVI", "XVII", "XVIII", "XIX"]
+	},
+	{
+		"q": "Mikołaj Rej to polski pisarz kojarzony z:",
+		"c": [0],
+		"a": ["renesansem", "barokiem", "romantyzmem", "oświeceniem"]
+	},
+	{
+		"q": "Calineczka to baśń:",
+		"c": [1],
+		"a": ["Ignacego Krasickiego", "Hansa Christiana Andersena", "braci Grimm", "Adama Mickiewicza"]
+	},
+	{
+		"q": "Palindrom to:",
+		"c": [0],
+		"a": [
+			"wyraz,który czytany w obu kierunkach brzmi identycznie",
+			"wyraz przeciwstawny",
+			"wyraz dźwiękonaśladowczy",
+			"nowy wyraz stworzony przez poetę"
+		]
+	},
+	{
+		"q": "Kto według tradycji jest autorem Psalmów biblijnych:",
+		"c": [3],
+		"a": ["Arcykapłani Izraela", "król Samuel", "Mojżesz", "król Dawid"]
+	},
+	{
+		"q": "Famijana była:",
+		"c": [0],
+		"a": [
+			"żoną Aleksego",
+			"księniczką z domu Jagiellonów",
+			"siostrą Antygony",
+			"nazwą starożytnego miasta"
+		]
+	},
+	{
+		"q": "Dokończ pierwszy wers wiersza Nad rzeczką opodal krzaczka:",
+		"c": [3],
+		"a": [
+			"prała bieliznę wieśniaczka",
+			"chłop zgubił laczka",
+			"żaba chwaliła raczka",
+			"mieszkała kaczka dziwaczka"
+		]
+	},
+	{
+		"q": "Przykładem palindromu jest wyraz:",
+		"c": [1],
+		"a": ["muszla", "sedes", "kran", "brodzik"]
+	},
+	{
+		"q": "Pierwszą parą bogów według mitów greckich byli:",
+		"c": [2],
+		"a": ["Zeus i Rea", "Kronos i Rea", "Uranos i Gaja", "Zeus i Atena"]
+	},
+	{
+		"q": "Która z tych osób nigdy nie pełniła funkcji Prezydenta RP?",
+		"c": [1],
+		"a": [
+			"Wojciech Jaruzelski",
+			"Jarosław Kaczyński",
+			"Bronisław Komorowski",
+			"Aleksander Kwaśniewski"
+		]
+	},
+	{
+		"q": "Ile osób liczy Zgromadzenie Narodowe w Polsce?",
+		"c": [2],
+		"a": ["460", "660", "560", "360"]
+	},
+	{
+		"q": "której funkcji nie pełni Senat?",
+		"c": [3],
+		"a": ["ustrojodawczek", "ustawodawczej", "kreacyjnej", "kontrolnej"]
+	},
+	{
+		"q": "Ile w Polsce jest województw?",
+		"c": [2],
+		"a": ["17", "15", "16", "18"]
+	},
+	{
+		"q": "Ile gmin wchodzi w skład Powiatu Wołowskiego?",
+		"c": [1],
+		"a": ["5", "3", "4", "2"]
+	},
+	{
+		"q": "W jakim mieście znajduje się siedziba Europejskiego Trybunału Praw Człowieka?",
+		"c": [3],
+		"a": ["Haga", "Luksemburg", "Bruksela", "Strasburg"]
+	},
+	{
+		"q": "W którym roku uchwalono obecną Konstytucję RP?",
+		"c": [0],
+		"a": ["1997r.", "1989r.", "2004r.", "1992r."]
+	},
+	{
+		"q": "Która zasada nie obowiązuje podczas wyborów do senatu?",
+		"c": [3],
+		"a": ["powszechności", "bezpośredniości", "tajności głosowania", "proporcjonalności"]
+	},
+	{
+		"q": "Obsadzanie stanowisk członkami własnej rodziny to:",
+		"c": [2],
+		"a": ["korupcja", "klientelizm", "nepotyzm ", "kolesiostwo"]
+	},
+	{
+		"q": "Aby wystartować w wyborach do Senatu trzeba ukończyć?",
+		"c": [2],
+		"a": ["35 lat", "25 lat", "30 lat", "21 lat"]
+	},
+	{
+		"q": "Która z zasad nie obowiązuje podczas wyborów do Senatu RP?",
+		"c": [1],
+		"a": ["powszechności", "proporcjonalności", "bezpośredniości", "tajności głosowania"]
+	},
+	{
+		"q": "Która z osób nie pełniła funkcji Prezydenta II RP?",
+		"c": [0],
+		"a": ["Józef Piłsudski", "Ignacy Mościcki", "Stanisław Wojciechowski", "Gabriel Narutowicz"]
+	},
+	{
+		"q": "Autorem trójpodziału władzy był:",
+		"c": [3],
+		"a": ["Wolter", "Jean Jaques Rousseau", "John Locke", "Monteskiusz"]
+	},
+	{
+		"q": "Ile razy można odjąć 10 od 90?",
+		"c": [0],
+		"a": ["1", "10", "∞", "5"]
+	},
+	{
+		"q": "Co oznacza w ratownictwie medycznym skrót AED ?",
+		"c": [1],
+		"a": [
+			"Chorobę serca",
+			"Automatyczny zewnętrzny defibrylator",
+			"Lek na bóle stawów",
+			"Urządzenie do oceny prawidłowego oddechu"
+		]
+	},
+	{
+		"q": "Resustytacja krązeniowo-oddechowa oznacza przywrócenie:",
+		"c": [3],
+		"a": [
+			"świadomości oraz oddychania i krążenia krwi",
+			"oddychania",
+			"krążenia krwi",
+			"funkcji życiowych (krążenia i oddychania)"
+		]
+	},
+	{
+		"q": "Karetka pogotowia oznaczona dużą literą P oznacza:",
+		"c": [2],
+		"a": [
+			"Karetkę pierwszej pomocy",
+			"Karetkę pulmonologiczną",
+			"Karetkę podstawową",
+			"Karetkę do przewozu pacjentów"
+		]
+	},
+	{
+		"q": "Jaka jest najmniejsza kość w ludzkim organiżmie?",
+		"c": [1],
+		"a": [
+			"Kość małego palca dłoni",
+			"Strzemiączko w uchu środkowym",
+			"Młoteczek w uchu środkowym",
+			"Rzepka w stawie kolanowym"
+		]
+	},
+	{
+		"q": "Krew wypływajaca podczas krwotku żylnego ma kolor?",
+		"c": [3],
+		"a": ["Jasnoczerwony", "Czarny", "Ciemnoniebieski", "Ciemnoczerwony"]
+	},
+	{
+		"q": "Basketball to:",
+		"c": [0],
+		"a": ["Koszykówka", "Piłka siatkowa", "Piłka ręczna", "Piłka nożna"]
+	},
+	{
+		"q": "W jednym zespole piłki siatkowej na boisku jednoczesnie znajduje się:",
+		"c": [2],
+		"a": ["5 osób", "11 osób", "6 osób", "7 osób"]
+	},
+	{
+		"q": "Mecz Badmintona trwa do osiagnięcia:",
+		"c": [2],
+		"a": ["15 punktów", "25 punktów", "21 punktów", "30 punktów"]
+	},
+	{
+		"q": "Prawidłowa rozgrzewka podczas lekcji wychowania fizycznego powinna trwać?",
+		"c": [3],
+		"a": ["2-5 minut", "20-25 minut", "1-2 minuty", "10-15 minut"]
+	},
+	{
+		"q": "Ile zwierząt było na arce Mojżesza?",
+		"c": [3],
+		"a": ["43", "2507", "3053", "0"]
+	},
+	{
+		"q": "Jak nazywa się specjalista naprawiający gitary?",
+		"c": [1],
+		"a": ["Stolarz", "Lutnik", "Mechanik", "Muzyk"]
+	},
+	{
+		"q": "Jak nazywa się twórca aktualnie używanego programu?",
+		"c": [0],
+		"a": ["Aleksander Łyskawa", "Grzegorz Łyskawa", "Krzysztof Łyskawa", "Bartosz Łyskawa"]
+	},
+	{
+		"q": "Kiedy oficjalnie został wydany Minecraft?",
+		"c": [0],
+		"a": ["18.11.2011", "17.05.2009", "2.09.2014", "23.04.2019"]
+	},
+	{
+		"q": "Ile nocy jest w grze Five Nights at Freddy's 3",
+		"c": [1],
+		"a": ["4", "6", "7", "8"]
+	},
+	{
+		"q": "W jakim języku napisana jest ta aplikacja?",
+		"c": [0],
+		"a": ["JavaScript React", "Python", "Java", "C++"]
+	},
+	{
+		"q": "Na swoje pytanie otrzymujesz odpowiedź: It beats me. Co to znaczy?",
+		"c": [2],
+		"a": [
+			"Wszystko mi jedno.",
+			"Nie wolno mi o tym rozmawiać.",
+			"Nie mam pojęcia.",
+			"Pokonałeś mnie."
+		]
+	},
+	{
+		"q": "Jakiego czasownika brakuje: In this business you sink or .... .",
+		"c": [0],
+		"a": ["swim", "float", "dive", "drown"]
+	},
+	{
+		"q": "W restauracji przyjaciółka mówi do ciebie: Let's go Dutch. Co ma na myśli?",
+		"c": [1],
+		"a": [
+			"Pojedźmy do Holandii.",
+			"Zapłaćmy każdy za siebie.",
+			"Chodźmy jeszcze do toalety.",
+			"Zamówmy deser."
+		]
+	},
+	{
+		"q": "Co oznacza angielskie słowo Carnation?",
+		"c": [0],
+		"a": ["goździk", "karnacja", "reinkarncacja", "kreacja"]
+	},
+	{
+		"q": "Co znaczy przysłowie: It never rains but it pours.",
+		"c": [2],
+		"a": [
+			"Po deszczu zawsze przychodzi słońce.",
+			"Wpaść spod deszczu pod rynnę.",
+			"Nieszczęścia chodzą parami.",
+			"Tu zawsze leje."
+		]
+	},
+	{
+		"q": "She gets a kick out of her job znaczy, że:",
+		"c": [2],
+		"a": [
+			"jej pracodawca źle ją traktuje",
+			"pracuje przy koniach",
+			"lubi swoją pracę",
+			"została zwolniona"
+		]
+	},
+	{
+		"q": "Ascot, Epsom i Newmarket są:",
+		"c": [2],
+		"a": ["domami handlowymi", "spókami akcyjnymi", "torami wyścigowymi", "galeriami sztuki"]
+	},
+	{
+		"q": "Co to jest Welsh rarebit?",
+		"c": [3],
+		"a": [
+			"żadna dziewczyna z Walii",
+			"pieczeń z zająca z warzywami",
+			"pasztet z królika",
+			"grzanka z serem"
+		]
+	},
+	{
+		"q": "W której księdze Pisma Świętego, jest zawarty opis Stworzenia Świata?",
+		"c": [1],
+		"a": ["Jeremiasza", "Rodzaju", "Apokalipsy św. Jana", "Psalmów"]
+	},
+	{
+		"q": "W jakiej kolejności, papieże, sprawowali funkcje na Stolicy Piotrowej?",
+		"c": [0],
+		"a": [
+			"Jan Paweł II, Benedykt XVI, Franciszek",
+			"Franciszek, Jan Paweł II, Benedykt XVI",
+			"Jan XXIII, Benedykt XVI, Franciszek",
+			"Pius XI, Benedykt XVI, Franciszek"
+		]
+	},
+	{
+		"q": "W który dzień Kościół Katolicki, wspomina śmierć Jezusa Chrystusa?",
+		"c": [2],
+		"a": ["W Wielki Poniedziałek", "W Wielką Środę", "W Wielki Piątek", "W Wielką Sobotę"]
+	},
+	{
+		"q": "Kto był Prokuratorem Rzymskim w Jerozolimie za czasów Jezusa Chrystusa?",
+		"c": [1],
+		"a": ["August II", "Poncjusz Piłat", "Neron II", "Euzebiusz z Cezarei"]
+	},
+	{
+		"q": "Podaj skład 4 Ewangelistów:",
+		"c": [0],
+		"a": [
+			"Mateusz, Marek, Łukasz, Jan",
+			"Jakub, Mateusz, Jan, Marek",
+			"Judasz, Piotr, Marek, Jan",
+			"Tomasz, Jakub, Robert, Zygfryd"
+		]
+	},
+	{
+		"q": "Który z Apostołów wydał Jezusa na śmierć?",
+		"c": [1],
+		"a": ["Tomasz", "Judasz", "Piotr", "Juda"]
+	},
+	{
+		"q": "Jak brzmi VII Przykazanie Boże?",
+		"c": [3],
+		"a": [
+			"Nie zabijaj",
+			"Nie czyń bliźniemu co Tobie nie miłe",
+			"Pamiętaj, abyś dzień święty święcił",
+			"Nie kradnij"
+		]
+	},
+	{
+		"q": "Który ze Świętych kościoła katolickiego pochodził z Asyżu?",
+		"c": [2],
+		"a": ["Antoni", "Augustyn", "Franciszek", "Piotr Chryzolog"]
+	},
+	{
+		"q": "W którym roku, odbył się Chrzest Polski?",
+		"c": [2],
+		"a": ["1966", "1606", "966", "1000"]
+	},
+	{
+		"q": "Jakiej narodowości był Joseph Pilates - twórca systemu ćwiczeń pilates?",
+		"c": [3],
+		"a": ["Francuz", "Holender", "Szwed", "Niemiec"]
+	},
+	{
+		"q": "Ilu zawodników (nie licząc ławki rezerwowych) liczy drużyna 'szczypiorniaka'?",
+		"c": [2],
+		"a": ["5", "6", "7", "8"]
+	},
+	{
+		"q": "Na jakiej wysokości znajduje się obręcz kosza w koszykówce?",
+		"c": [1],
+		"a": ["2.8m", "3.05m", "3.15m", "3.50m"]
+	},
+	{
+		"q": "Skład drużyny w grze zespołowej 'korfball' to pomijając ławkę rezerwowych:",
+		"c": [0],
+		"a": [
+			"4 kobiety i 4 mężczyzni",
+			"3 kobiety i 3 mężczyzni",
+			"2 kobiety i 3 mężczyzni",
+			"3 kobiety i 2 mężczyzni"
+		]
+	},
+	{
+		"q": "Na jakiej wysokości znajduje się obręcz kosza w korfballu?",
+		"c": [3],
+		"a": ["2.5m", "3m", "3.05m", "3.5m"]
+	},
+	{
+		"q": "Z jaką grą zespołową skojarzysz zawodnika 'libero'?",
+		"c": [2],
+		"a": ["futsal", "koszykówka", "siatkówka", "unihokej"]
+	},
+	{
+		"q": "Jaką literę alfabetu greckiego skojarzysz ze złotą proporcją - złotym podziałem?",
+		"c": [1],
+		"a": ["pi", "fi", "hi", "mi"]
+	},
+	{
+		"q": "Adres IP to:",
+		"c": [0],
+		"a": ["10.10.10.127", "EA-C3-DD-39-78-F4", "10.12.211.269", "88:K5:PP:7C:35:B2"]
+	},
+	{
+		"q": "MAC czyli adres fizyczny karty sieciowej to:",
+		"c": [3],
+		"a": ["10.0.0.20", "AB-CD-12-34-7H-G0", "255.124.62.265", "88:25:6F:CC:94:A2"]
+	},
+	{
+		"q": "Rekursja oznacza to samo co:",
+		"c": [2],
+		"a": ["rekreacja", "rekuperacja", "rekurencja", "reminiscencja"]
+	},
+	{
+		"q": "Podaj poprawny wynik działania: 2+2:2",
+		"c": [1],
+		"a": ["8", "3", "2", "1"]
+	},
+	{
+		"q": "Jaką liczbę należy wpisać w miejsce kropek 0,2,2,4,6,10,16,26,42,..,110",
+		"c": [0],
+		"a": ["68", "84", "1764", "110"]
+	},
+	{
+		"q": "Ojciec ma 27 lat, a syn 5. Za ile lat ojciec będzie 3 razy starszy od syna?",
+		"c": [1],
+		"a": ["za 4 lata", "za 6 lat", "za 3 lata", "za 13 lat"]
+	},
+	{
+		"q": "Na co to wzór: 2a+2b?",
+		"c": [2],
+		"a": ["na pole kwadratu", "na pole podstawy walca", "na obwód prostokąta", "na obwód koła"]
+	},
+	{
+		"q": "Ile jest 1111 razy 1111, jesli 1 razy 1 to 1, a 11 razy 11 to 121?",
+		"c": [1],
+		"a": ["12321", "1234321", "111111111", "123454321"]
+	},
+	{
+		"q": "Suma miar kątów wewnętrznych w trójkącie rozwartokątnym wynosi:",
+		"c": [2],
+		"a": ["270 stopni", "360 stopni", "180 stopni", "300 stopni"]
+	},
+	{
+		"q": "Jeśli suma czterech kolejnych liczb parzystych jest równa 100, to najmniejszą z tych liczb jest:",
+		"c": [1],
+		"a": ["12", "22", "32", "42"]
+	},
+	{
+		"q": "Jakich rozmiarów nie może mieć prostokąt, którego pole powierzchni wynosi 36m2?",
+		"c": [3],
+		"a": ["2 na 18 cm", "4 na 9 cm", "3 na 12 cm", "5 na 7 cm"]
+	},
+	{
+		"q": "Ile jest liczb dwucyfrowych podzielnych przez 5?",
+		"c": [3],
+		"a": ["10", "25", "13", "18"]
+	},
+	{
+		"q": "Która z podanych liczb jest wspólnym mianownikiem dla ułamków dwie szóste i trzy piąte?",
+		"c": [2],
+		"a": ["3", "4", "30", "40"]
+	},
+	{
+		"q": "Którego elementu anatomicznego nie znajdziesz w ciele człowieka:",
+		"c": [2],
+		"a": ["młoteczka", "pręcika", "łamacza", "ślimaka"]
+	},
+	{
+		"q": "Australopitek, ssak naczelny z rodziny człowiekowatych, żył od 5,5 miliona do ok. 1 miliona lat temu:",
+		"c": [1],
+		"a": ["w Australii", "w  Afryce", "na Bliskim Wschodzie", "na Alasce"]
+	},
+	{
+		"q": "Czy wszystkie ryby piją wodę?",
+		"c": [3],
+		"a": ["tak", "nie", "tylko żyjące w wodzie słodkiej", "tylko żyjące w wodzie słonej"]
+	},
+	{
+		"q": "Gdzie znajdują się wyspy Langerhansa?",
+		"c": [1],
+		"a": [
+			"na Oceanie Spokojnym",
+			"w ogonie trzustki",
+			"na Morzu Śródziemnym",
+			"w Wątrobie, tworzą jej płaty"
+		]
+	},
+	{
+		"q": "Z którym z krajów Francja nie graniczy?",
+		"c": [3],
+		"a": ["Włochy", "szwajcaria", "Luksemburg", "Portugalia"]
+	},
+	{
+		"q": "Mont Blanc leży w górach:",
+		"c": [1],
+		"a": ["Pireneje", "Alpy", "Wogezy", "Masyw Centralny"]
+	},
+	{
+		"q": "Słynny festiwal filmowy odbywa się we Francji w:",
+		"c": [0],
+		"a": ["Cannes", "Lille", "Paryż", "Bordeaux"]
+	},
+	{
+		"q": "Bracia Lumiere to pionierzy w dziedzinie:",
+		"c": [1],
+		"a": ["motoryzacji", "kina", "elektryczności", "mechaniki"]
+	},
+	{
+		"q": "Jak na imię ma Macron, obecny prezydent Francji?",
+		"c": [3],
+		"a": ["Jacques", "Francois", "Eduard", "Emmanuel"]
 	}
 ]
