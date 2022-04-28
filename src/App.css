@@ -11,3 +11,41 @@ html {
 	height: 100%;
 	position: absolute;
 }
+
+.Logo {
+	width: 50em;
+	height: 50em;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 32%;
+	left: 50%;
+	z-index: -11;
+	transform-origin: center;
+}
+.Logo2 {
+	width: 60em;
+	height: 60em;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 60%;
+	left: 50%;
+	z-index: -12;
+	transform-origin: center;
+}
+
+.Rotate {
+	animation: rotation 50s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359.9deg);
+	}
+}
+
+svg * {
+	transform-box: fill-box;
+}

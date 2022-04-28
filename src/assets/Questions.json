@@ -250,11 +250,6 @@
 		"a": ["1997r.", "1989r.", "2004r.", "1992r."]
 	},
 	{
-		"q": "Która zasada nie obowiązuje podczas wyborów do senatu?",
-		"c": [3],
-		"a": ["powszechności", "bezpośredniości", "tajności głosowania", "proporcjonalności"]
-	},
-	{
 		"q": "Obsadzanie stanowisk członkami własnej rodziny to:",
 		"c": [2],
 		"a": ["korupcja", "klientelizm", "nepotyzm ", "kolesiostwo"]
@@ -352,17 +347,17 @@
 	{
 		"q": "Ile zwierząt było na arce Mojżesza?",
 		"c": [3],
-		"a": ["43", "2507", "3053", "0"]
+		"a": ["Wyszstkie", "2507", "3053", "0"]
 	},
 	{
 		"q": "Jak nazywa się specjalista naprawiający gitary?",
 		"c": [1],
-		"a": ["Stolarz", "Lutnik", "Mechanik", "Muzyk"]
+		"a": ["Stolarz", "Lutnik", "Lichwiarz", "Muzyk"]
 	},
 	{
-		"q": "Jak nazywa się twórca aktualnie używanego programu?",
+		"q": "Kto jest twórcą aktualnie używanego programu?",
 		"c": [0],
-		"a": ["Aleksander Łyskawa", "Grzegorz Łyskawa", "Krzysztof Łyskawa", "Bartosz Łyskawa"]
+		"a": ["Aleksander Łyskawa", "Michał Kordiasz", "Mareczek Oberg", "Mateusz Oberg"]
 	},
 	{
 		"q": "Kiedy oficjalnie został wydany Minecraft?",
@@ -373,11 +368,6 @@
 		"q": "Ile nocy jest w grze Five Nights at Freddy's 3",
 		"c": [1],
 		"a": ["4", "6", "7", "8"]
-	},
-	{
-		"q": "W jakim języku napisana jest ta aplikacja?",
-		"c": [0],
-		"a": ["JavaScript React", "Python", "Java", "C++"]
 	},
 	{
 		"q": "Na swoje pytanie otrzymujesz odpowiedź: It beats me. Co to znaczy?",
@@ -502,7 +492,7 @@
 	{
 		"q": "W którym roku, odbył się Chrzest Polski?",
 		"c": [2],
-		"a": ["1966", "1606", "966", "1000"]
+		"a": ["1025", "1606", "966", "996"]
 	},
 	{
 		"q": "Jakiej narodowości był Joseph Pilates - twórca systemu ćwiczeń pilates?",
@@ -658,5 +648,45 @@
 		"q": "Jak na imię ma Macron, obecny prezydent Francji?",
 		"c": [3],
 		"a": ["Jacques", "Francois", "Eduard", "Emmanuel"]
+	},
+	{
+		"q": "Gdzie leży pustynia Atacama?",
+		"c": [0],
+		"a": ["a) w Chile", "w Peru", "w Argentynie", "w ekwadorze"]
+	},
+	{
+		"q": "Korazja to erozja:",
+		"c": [2],
+		"a": ["fal morskich", "lodowca  górskiego", "wiatru", "wód opadowych"]
+	},
+	{
+		"q": "Najdłuższą  rzeką Europy jest:",
+		"c": [1],
+		"a": ["Dunaj", "Wołga", "Ren", "Pad"]
+	},
+	{
+		"q": "Lewym dopływem Odry jest:",
+		"c": [3],
+		"a": ["Pilica", "Kaczawa", "Nysa Łużycka", "Barycz"]
+	},
+	{
+		"q": "Francja graniczy z:",
+		"c": [1],
+		"a": ["5 państwami", "8 państwami ", "9 pństwami ", "4 państwami"]
+	},
+	{
+		"q": "Najtwardszym minerałem jest:",
+		"c": [2],
+		"a": ["korund", "ortoklaz", "diament", "topaz"]
+	},
+	{
+		"q": "Do procesów endogenicznych zaliczamy:",
+		"c": [3],
+		"a": ["wiertrzenie skał", "erozję wiatrową ", "denudację", "ruchy izostatyczne"]
+	},
+	{
+		"q": "Do skał metamorficznych zaliczamy:",
+		"c": [2],
+		"a": ["bazalt", "piaskowiec", "gnejs", "sjenit"]
 	}
 ]

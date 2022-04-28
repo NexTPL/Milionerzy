@@ -45,6 +45,7 @@ const Answer = (props) => {
 			}`}
 			onClick={ClickHandler}
 		>
+			<div className={styles.Line}></div>
 			{props.name + '. ' + Answer.charAt(0).toUpperCase() + Answer.slice(1)}
 		</div>
 	) : (
@@ -52,6 +53,7 @@ const Answer = (props) => {
 			className={`${styles.AnswerContainer} ${Selected ? styles.Selected : styles.NotSelected}`}
 			onClick={ClickHandler}
 		>
+			<div className={styles.Line}></div>
 			{props.name + '. ' + Answer.charAt(0).toUpperCase() + Answer.slice(1)}
 		</div>
 	);

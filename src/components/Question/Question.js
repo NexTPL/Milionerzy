@@ -5,7 +5,8 @@ const Question = () => {
 	const question = useSelector((state) => state.Store.Question.q);
 	return (
 		<div className={styles.QuestionContainer}>
-			{question.charAt(0).toUpperCase() + question.slice(1)}
+			<div className={styles.Line}></div>
+			{question.charAt(0).toUpperCase() + question.slice(1)}{' '}
 		</div>
 	);
 };
