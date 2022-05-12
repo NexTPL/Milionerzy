@@ -46,8 +46,9 @@ body {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	height: 2rem;
-	color: #ffffff0d;
+	height: 2em;
+	font-size: 1.5rem;
+	color: #ffffff25;
 	display: flex;
 	vertical-align: middle;
 	justify-content: center;
