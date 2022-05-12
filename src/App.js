@@ -17,7 +17,7 @@ function App() {
 		dispatch(StoreSliceActions.mods());
 	};
 	return (
-		<React.Fragment>
+		<>
 			{ShowMods && <Mods />}
 			{ShowModal && <Modal />}
 			<Container />
@@ -27,7 +27,8 @@ function App() {
 			<div className='Logo2'>
 				<img src={Logo2} className='Rotate' alt='LOGO' />
 			</div>
-		</React.Fragment>
+			<div className='Footer'>Aleksander Łyskawa 2022</div>
+		</>
 	);
 }
 export default App;
