@@ -1,21 +1,21 @@
 .Table {
-	font-size: 0.7rem;
 	color: #ffffff;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	border-radius: 2em;
-	padding-right: 2em;
-	width: 8em;
-	height: 52em;
+	justify-content: space-around;
+	border-radius: 20px 0 0 20px;
+	width: 75px;
+	height: 650px;
 	z-index: 3;
 	background: rgb(0, 15, 130);
 	background: radial-gradient(circle, rgba(0, 15, 130, 1) 0%, rgba(0, 3, 27, 1) 100%);
 	border: #ffffff;
 	border-style: solid;
-	border-width: 0.2em;
+	border-width: 3px 0 3px 3px;
 	position: absolute;
-	left: 102%;
+	right: 0;
 	top: 50%;
-	transform: translate(-100%, -50%);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transform: translate(0, -50%);
 }

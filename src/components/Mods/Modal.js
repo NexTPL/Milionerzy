@@ -38,14 +38,11 @@ const Modal = () => {
 					<img src={Mod1} alt='50/50' className={styles.Img} onClick={Mod1Handler} />
 				</div>
 				<div className={ModsUsed[1] ? styles.ModOff : styles.ModOn}>
-					<img src={Mod2} alt='Klasa' className={styles.Img} onClick={Mod2Handler} />
+					<img src={Mod2} alt='Publiczność' className={styles.Img} onClick={Mod2Handler} />
 				</div>
 				<div className={ModsUsed[2] ? styles.ModOff : styles.ModOn}>
-					<img src={Mod3} alt='Klasa' className={styles.Img} onClick={Mod3Handler} />
+					<img src={Mod3} alt='Nauczyciel' className={styles.Img} onClick={Mod3Handler} />
 				</div>
-
-				{/* <img src={Mod2} alt='Publiczność' />
-				<img src={Mod3} alt='Nauczyciel' /> */}
 			</div>
 		</div>
 	);

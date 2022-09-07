@@ -22,7 +22,7 @@ const Modal = () => {
 				{Win ? (
 					<div className={styles.TextModal}>
 						<h1>GRATULACJE</h1>
-						<p>Zostałeś wirtualnym milionerem!</p>
+						<p>Zostałeś/aś wirtualnym milionerem!</p>
 					</div>
 				) : (
 					<div className={styles.TextModal}>

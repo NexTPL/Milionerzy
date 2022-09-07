@@ -20,7 +20,7 @@
 .Line {
 	background-color: #ffffff;
 	height: 0.15em;
-	width: 40%;
+	width: 35vw;
 	position: absolute;
 	z-index: -1;
 	border-radius: 100%;

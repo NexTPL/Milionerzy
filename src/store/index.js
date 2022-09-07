@@ -23,9 +23,9 @@ Question.volume = 0.4;
 const StoreState = {
 	Score: -1,
 	Question: {
-		q: 'Chcesz zagrać?',
+		q: 'Naciśnij odpowiedź aby zagrać',
 		c: [0, 1, 2, 3],
-		a: ['Tak', 'Tak', 'Tak', 'Tak'],
+		a: ['', '', '', ''],
 	},
 	Set: [0, 1, 2, 3],
 	Removed: [],
@@ -33,7 +33,7 @@ const StoreState = {
 	Select: false,
 	Modal: false,
 	Mods: false,
-	ModsUsed: [false, false, false], // 50:50, Publiczność, Telefon
+	ModsUsed: [false, false, false], // 50:50, Publiczność, Nauczyciel
 };
 
 const StoreSlice = createSlice({

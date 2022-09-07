@@ -1,16 +1,13 @@
 .Score {
-	display: flex;
-	flex-direction: row;
-	font-size: 1.8rem;
-	padding: 0.2em;
-	justify-content: center;
-	align-items: center;
-	gap: 1em;
+	font-size: 35px;
 }
 
 .Answered {
 	color: #fcdc73;
 }
 .NotAnswered {
+	color: #dadada;
+}
+.Current {
 	color: #ffffff;
 }

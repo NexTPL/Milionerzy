@@ -21,7 +21,7 @@
 .Line {
 	background-color: #ffffff;
 	height: 0.2em;
-	width: 150%;
+	width: 75vw;
 	position: absolute;
 	z-index: -1;
 	border-radius: 100%;
